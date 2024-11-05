@@ -1,0 +1,84 @@
+/* Les parties principales */
+header, footer, .deroule, .semiheader {
+  z-index: 0;
+  background-color: white;
+}
+
+header, .semiheader {
+  padding-top: 7%;
+  padding-bottom: 5%;
+  padding-left: 3%;
+}
+
+body {
+  z-index: 0;
+  margin: 0px;
+}
+
+/* Le menu burger */
+.topnav {
+  z-index: 1;
+  overflow: hidden;
+  text-align: center;
+}
+
+.topnav #burger {
+  display: none;
+}
+
+.topnav a {
+  color: #303030;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.active {
+  background-color: white;
+  align-items: right;
+}
+
+/* Les balises de texte */
+h1, h2, h3 {
+  text-align: left;
+  color: #303030;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+a {
+  font-family: verdana;
+  font-size: 20px;
+  color: #303030;
+}
+
+/* Les balises boîtes */
+
+.inner {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+
+.deroule {
+  column-count: 3;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+}

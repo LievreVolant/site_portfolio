@@ -1,0 +1,16 @@
+Portfolio
+- Présentation moi
+	- Parcours universitaire
+	- Compétences
+	- Outils
+	- Passions en dehors de l'informatique
+- CV
+- Projets
+	- SAE
+	- 3DS
+- Me contacter
+	- Mail étudiant
+	~ Numéro de téléphone
+	- LinkedIn
+
+- Couleurs : pastels ou rose/orange/noir 

@@ -1,0 +1,21 @@
+header, footer {
+    background-color: white;
+}
+
+body {
+    background-color: #FBF2B1;
+}
+  
+h1, h2, h3 {
+    text-align: center;
+}
+  
+p {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+a {
+    font-family: verdana;
+    font-size: 20px;
+}
