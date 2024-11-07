@@ -1,13 +1,18 @@
 /* Les parties principales */
-header, footer, .deroule, .semiheader {
-  z-index: 0;
+header, footer, .defile, .semiheader {
   background-color: white;
   margin: none;
 }
 
-header, .semiheader {
+header {
   padding-top: 7%;
   padding-bottom: 5%;
+  padding-left: 3%;
+}
+
+.semiheader {
+  padding-top: 7%;
+  padding-bottom: 7%;
   padding-left: 3%;
 }
 
@@ -18,7 +23,7 @@ body {
 
 /* Le menu burger */
 .topnav {
-  z-index: 1;
+  z-index: 9;
   overflow: hidden;
   text-align: center;
 }
@@ -30,21 +35,27 @@ body {
 .topnav a {
   color: #303030;
   padding: 14px 16px;
-  text-decoration: none;
   font-size: 17px;
-  display: block;
 }
 
 .topnav a.icon {
   display: block;
-  position: absolute;
-  right: 0;
+  position: fixed;
   top: 0;
+  right: 0;
 }
 
 .active {
+  z-index: 3;
   background-color: white;
-  align-items: right;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  width: 350px;
+  right: 0.5rem;
+  top: 0.5rem;
+  padding-top: 2%;
+  border-radius: 15px;
 }
 
 /* Les balises de texte */
@@ -68,6 +79,18 @@ a {
   color: #303030;
 }
 
+/* Les boutons */
+
+button {
+  background-color: white;
+  border: none;
+  color: #303030;
+  padding: 15px 32px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 /* Les balises boîtes */
 
 .inner {
@@ -77,8 +100,7 @@ a {
   margin-left: 80px;
 }
 
-.deroule {
-  column-count: 3;
+.defile {
   padding-top: 1%;
   padding-bottom: 1%;
   padding-left: 1%;
