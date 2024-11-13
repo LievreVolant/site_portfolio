@@ -150,6 +150,7 @@ button > active {
   margin-left: 36%;
 }
 
+/* Les icones dans les boites */
 .icones {
   display: flex;
   flex-wrap: wrap;
@@ -214,7 +215,7 @@ html { scroll-behavior: smooth; }
 }
 
 .slides::-webkit-scrollbar-track {
-  background: transparent;
+  background: transparent; 
 }
 
 .slides > div {
