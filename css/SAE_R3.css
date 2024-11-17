@@ -1,4 +1,8 @@
 /* Couleur du fond */
 body {
-    background-color: #FFCEE5;
-  }
+    background-color: #B4E4F8;
+}
+
+.active {
+  background-color: #FFCEE5;
+}
