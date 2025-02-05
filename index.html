@@ -3,10 +3,14 @@
 
     <head>
         <title>Lili Goy - Accueil</title>
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="public/css/main.css">
+        <link rel="stylesheet" href="public/css/index.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+
+    <script src='public/js/jquery-3.7.1.slim.min.js'></script>
+    <script src="public/js/main.js"></script>
+    <script src="public/js/index.js"></script>
 
     <!-- Les onglets de naviguations (menu burger)-->
     <div class="topnav">
@@ -28,137 +32,221 @@
     </header>
 
     <!-- Boutons de naviguation de déroulement de l'accueil-->
-        <div class="defile">
+        <div class="div-boutons-defile">
             <a href="#top"><button type="button">Qui suis-je ?</button></a>
+            <a href="#passions"><button type="button">Mes passions</button></a>
             <a href="#competences"><button type="button">Mes compétences</button></a>
             <a href="#projets"><button type="button">Mes projets</button></a>
         </div>
     
     <body>
         <!-- Ma présentation -->
-            <div class="inner">
+            <div class="div-inner">
+
                 <!-- Qui suis-je ? -->
-                    <div class="boite_milieu">
-                        <div class="titre">
-                            <h2>Qui suis-je ?</h2>
-                        </div>
-                        <div class="contenu">
+                    <div class="div-boite-milieu">
+                        <img src="public/images/placeholder.png" class="img-rond"/>
+                        <div class="div-contenu">
+                            <div class="titre">
+                                <h2>Qui suis-je ?</h2>
+                            </div>
                             <p>Je m'appelle Lili Goy, j'ai 20 ans et j'ai grandis à Avignon. 
                             Je suis venue faire mes études à Grenoble en 2022. 
                             J'ai commencé par une licence en informatique avant de changer en deuxième année pour un BUT en informatique.</p>
                         </div>
                     </div>
 
-                <!-- Mon parcours -->
-                    <div class="boite_droite">
-                        <div class="titre">
-                            <h2>Mon parcours</h2>
+                <!-- Mon parcours et mes expériences -->
+                    <div class="div-boites-duo">
+                    
+                        <div class="div-boite-duo">
+                            <div class="div-contenu">
+                                <div class="titre">
+                                    <h2>Mon parcours</h2>
+                                </div>
+                                <div class="div-titre-date"><h3>IUT2 Grenoble</h3> <h4><i>2024 - en cours</i></h4></div>
+                                <h4>BUT2 Informatique</h4>
+                                <div class="div-titre-date"><h3>UGA Grenoble</h3> <h4><i>2022 - 2024</i></h4></div>
+                                <h4>L2 Informatique</h4>
+                                <h4>L1 Informatique</h4>
+                                <div class="div-titre-date"><h3>Lycée Louis Pasteur Avignon</h3> <h4><i>2019 - 2022</i></h4></div>
+                                <h4>Baccalauréat (Mention bien)</h4>
+                            </div>
                         </div>
-                        <div class="contenu">
-                            <h3>IUT 2 Grenoble 2024 - en cours</h3>
-                            <p>BUT 2</p>
-                            <h3>UGA Grenoble 2022 - 2024</h3>
-                            <p>L2 Informatique</p>
-                            <p>L1 Informatique</p>
-                            <h3>Lycée Louis Pasteur Avignon 2019 - 2022</h3>
-                            <p>Baccalauréat (Mention bien)</p>
+                    
+                        <div class="div-boite-duo">
+                            <div class="div-contenu">
+                                <div class="titre">
+                                    <h2>Mes expériences</h2>
+                                </div>
+                                <div class="div-titre-date"><h3>Kanope.Solar</h3> <h4><i>avril 2024 - juin 2024</i></h4></div>
+                                <h4>Création d'un site internet pour l'entreprise Kanope Solar.</h4>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+
+        <!-- Mes passions -->
+            <div id="passions" class="div-semiheader">
+                <h1>Mes passions</h1>
+            </div>
+
+            <div class="div-inner">
+                <!-- Le crochet -->
+                    <div class="div-boite-gauche">
+                        
+                        <div class="slider-petit">
+                            <div class="slides">
+                                <div id="crochet_01" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                                <div id="crochet_02" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                                <div id="crochet_03" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                            </div>
+
+                            <a href="#crochet_01"><span class="sr-only">Crochet 1</span></a>
+                            <a href="#crochet_02"><span class="sr-only">Crochet 2</span></a>
+                            <a href="#crochet_03"><span class="sr-only">Crochet 3</span></a>
+                        </div>
+
+                        <div class="div-contenu">
+                            <div class="titre">
+                                <h2>Le Crochet</h2>
+                            </div>
+                            <p>BlablablaBlab lablaBlabla blaBlablabl aBlablablaBlablabla BlablablaBlabla blaBlablablaBlabla blaBlablabl aBlablablaBl ablablaBlabla blaBlablabla aBlab lablaBlabla blaBlablabl aBlabla aBlab lablaBlabla blaBlablabl aBlablaaBlab lablaBlabla blaBlablabl aBlablaaBlab lablaBlabla blaBlablabl aBlabla</p>
+                        </div>
+                    </div>
+                <!-- Les jeux-vidéos "rétro" -->
+                    <div class="div-boite-droite">
+                        <div class="div-contenu">
+                            <div class="titre">
+                                <h2>Les jeux-vidéos "rétro"</h2>
+                            </div>
+                            <p>BlablablaBlablablaBlablabl aBlablablaBlablablaBl blablaBlablablaBlablabaBlab lablaBlabla blaBlablabl aBlablaaBlab lablaBlabla blaBlablabl aBlablaaBlab lablaBlabla blaBlablabl aBlablaaBlab lablaBlabla blaBlablabl aBlablalaBlablablaBlablab laBlablablaBlablabl aBlablablaBlablablaBlablabla</p>
+                        </div>
+
+                        <div class="slider-petit">
+                            <div class="slides">
+                                <div id="console_01" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                                <div id="console_02" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                                <div id="console_03" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                            </div>
+
+                            <a href="#consolet_01"><span class="sr-only">Console 1</span></a>
+                            <a href="#console_02"><span class="sr-only">Console 2</span></a>
+                            <a href="#console_03"><span class="sr-only">Console 3</span></a>
+                        </div>
+
+                    </div>
+                <!-- Les comédies musicales -->
+                    <div class="div-boite-gauche">
+
+                        <div class="slider-petit">
+                            <div class="slides">
+                                <div id="music_01" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                                <div id="music_02" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                                <div id="music_03" class="div-petit-carrousel">
+                                    <img src="public/images/placeholder.png" draggable="false">
+                                </div>
+                            </div>
+
+                            <a href="#music_01"><span class="sr-only">Music 1</span></a>
+                            <a href="#music_02"><span class="sr-only">Music 2</span></a>
+                            <a href="#music_03"><span class="sr-only">Music 3</span></a>
+                        </div>
+
+                        <div class="div-contenu">
+                            <div class="titre">
+                                <h2>Les comédies musicales</h2>
+                            </div>
+                            <p>BlablablaBlab lablaBlablablaBlablablaBl lablaBlablabaBlab lablaBlabla blaBlablabl aBlablaaBlab lablaBlabla blaBlablabl aBlablaaBlab lablaBlabla blaBlablabl aBlablalaBlablablaBlablablaBlabla blaBlablablaBlablablaBlab lablaBlablablaBlablablaBlablabla</p>
                         </div>
                     </div>
 
-                <!-- Mes expériences -->
-                    <div class="boite_gauche">
-                        <div class="titre">
-                            <h2>Mes expériences</h2>
-                        </div>
-                        <div class="contenu">
-                            <p>avril 2024 - juin 2024</p>
-                            <p>Création d'un site internet pour l'entreprise Kanope Solar.</p>
-                        </div>
-                    </div>
-
-                <!-- Mes passions -->
-                    <div class="boite_droite">
-                        <div class="titre">
-                            <h2>Mes passions</h2>
-                        </div>
-                        <div class="contenu">
-                            <h3>Le Crochet</h3>
-                            <p>J'aime fabriquer des peluches et des accessoires pour ma famille et mes amis. 
-                                J'apprécie pouvoir observer mes progrès en comparant mes premiers travaux et mes derniers.
-                            </p>
-                            <h3>Les Jeux-vidéos "rétro"</h3>
-                            <p>Si comme la plupart des étudiant en informatique j'apprécie énormèment l'art du jeu vidéo, 
-                                j'aime tout particulièrement les consoles et les jeux du début des années 2000 comme la DS, la 3DS, la Wii ou encore la PS Vita.
-                            </p>
-                            <h3>Les Comédies Musicales</h3>
-                            <p>Je suis passionnée de comédies musicales telles que Hamilton (que j'ai eu la chance de pouvoir aller voir à London West End),
-                                Six, ou dernièrement Epic the Musical.
-                            </p>
-                        </div>
-                    </div>
             </div>
 
         <!-- Mes compétences -->
-            <div id="competences" class="semiheader">
+            <div id="competences" class="div-semiheader">
                 <h1>Mes compétences</h1>
             </div>
             
-            <div class="inner">
-                <!-- Hard skills -->
-                    <div class="boite_gauche">
-                        <div class="titre">
-                            <h2>Les langages que je maitrise</h2>
+            <div class="div-inner">
+
+                <div class="div-boites-duo">
+                    <!-- Hard skills -->
+                        <div class="div-boite-duo">
+                            <div class="div-contenu">
+                                <div class="titre">
+                                    <h2>Les langages que je maitrise</h2>
+                                </div>
+                                <div class="icones">
+                                    <a href=""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-petit"></a>
+                                </div>
+                            </div>
                         </div>
-                        <div class="icones">
-                            <!--
-                            <a href=""><img src="python.png"></a>
-                            <a href ""><img src="html.png"></a>
-                            <a href ""><img src="css.png"></a>
-                            <a href ""><img src="sql.png"></a>
-                            <a href ""><img src="bash.png"></a>
-                            <a href ""><img src="ocaml.png"></a>
-                            <a href ""><img src="c.png"></a>
-                            <a href ""><img src="r.png"></a>
-                            <a href ""><img src="cpp.png"></a>
-                            <a href ""><img src="php.png"></a>
-                            <a href ""><img src="lua.png"></a>
-                            <a href ""><img src="javascript.png"></a>
-                            -->
-                        </div>
-                    </div>
-                <!-- Mes soft skills -->
-                    <div class="boite_droite">
-                        <h2>Mes autres compétences</h2>
-                        <div class="icones">
-                            <!--
-                            <a href ""><img src="bpmn.png"></a>
-                            -->
+                    <!-- Mes soft skills -->
+                        <div class="div-boite-duo">
+                            <div class="div-contenu">
+                                <h2>Mes autres compétences</h2>
+                                <div class="icones">
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-moyen"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-moyen"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-moyen"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-moyen"></a>
+                                    <a href ""><img src="public/images/placeholder.png" class="img-rond-moyen"></a>
+                                </div>
+                            </div>
                         </div>
                     </div>
             </div>
 
         <!-- Mes projets -->
-            <div id="projets" class="semiheader">
+            <div id="projets" class="div-semiheader">
                 <h1>Mes projets</h1>
             </div>
             
-            <div class="inner">
+            <div class="div-inner">
 
                 <div class="slider">
 
                     <div class="slides">
-                        <div id="projet_01" class="carrousel">
-                            <a name="projet_01" href="SAE_R3.html"><img class="carrousel" src="images/chat_odyssee.png" draggable="false"></a>
+                        <div id="projet_01" class="div-grand-carrousel">
+                            <a name="projet_01" href="template_projet.html"><img src="public/images/chat_odyssee.png" draggable="false"></a>
                         </div>
-                        <div id="projet_02" class="carrousel">
-                            <a name="projet_02" href="projet3DS.html"><img class="carrousel" src="images/illu3DS.jpg" draggable="false"></a>
+                        <div id="projet_02" class="div-grand-carrousel">
+                            <a name="projet_02" href="template_projet.html"><img src="public/images/illu3DS.jpg" draggable="false"></a>
                         </div>
-                        <div id="projet_03" class="carrousel">
-                            <a name="projet_03" href="SAE_R4.html"><img class="carrousel" src="" draggable="false"></a>
+                        <div id="projet_03" class="div-grand-carrousel">
+                            <a name="projet_03" href="template_projet.html"><img src="public/images/placeholder.png" draggable="false"></a>
                         </div>
 
-                        <div id="projets" class="carrousel">
-                            <a name="projet_00" href="projets.html"><img src="" draggable="false"></a>
+                        <div id="projets" class="div-grand-carrousel">
+                            <a name="projet_00" href="projets.html"><img src="public/images/placeholder.png" draggable="false"></a>
                         </div>
                     </div>
 
@@ -175,26 +263,26 @@
 
             </div>
         </div>
+
+        <input type='hidden' id='projetsData' value='{"SAE_R3":{"nom":"ChâtOdyssée", "visuel":"public/images/SAE_R3.png", "resume":"Résumé rapide", "desc":"Description générale du projet", "contribution":"Ma contribution au projet", "fichiers":["fichier1":"lien", "fichier2":"lien"]}}'/>
+
     </body>
 
     <footer>
-        <div class="boite_footer">
+        <div class="div-boite-footer">
             <!-- Rappel navigation -->
-                <div class="navigation">
+                <div class="div-navigation">
                     <a href="index.html">Accueil</a>
                     <a href="cv.html">Mon CV</a>
                     <a href="projets.html">Mes projets</a>
                     <a href="contact.html">Me contacter</a>
                 </div>
             <!-- Me contacter -->
-                <div class="contact">
+                <div class="div-contact">
                     <a href="mailto:lili.goy@etu.univ-grenoble-alpes.fr">lili.goy@etu.univ-grenoble-alpes.fr</a>
                     <a href="https://www.linkedin.com/in/lili-goy-2216a2337/">Profil LinkedIn</a>
                 </div>
         </div>
     </footer>
-
-    <input type='hidden' id='projetsData' value='{"SAE_R3":{"nom":"ChâtOdyssée", "visuel":"public/images/SAE_R3.png", "resume":"Résumé rapide", "desc":"Description générale du projet", "contribution":"Ma contribution au projet", "fichiers":["fichier1":"lien", "fichier2":"lien"]}}'>
-    <script src="js/main.js"></script>
 
 </html>

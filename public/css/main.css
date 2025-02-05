@@ -1,19 +1,23 @@
+@font-face { font-family: 'Raleway'; src: url('../font/Raleway-Medium.ttf'); }
+@font-face { font-family: 'Raleway'; font-style: italic; src: url('../font/Raleway-MediumItalic.ttf');}
+@font-face { font-family: 'Raleway'; font-weight: bold; src: url('../font/Raleway-Bold.ttf');}
+
 /* Les parties principales */
-header, footer, .defile, .semiheader {
+html {
+  font-family: 'Raleway';
+}
+
+header, footer, .div-boutons-defile, .div-semiheader {
   background-color: white;
   margin: none;
 }
 
-header {
-  padding-top: 7%;
-  padding-bottom: 5%;
-  padding-left: 3%;
+header, .div-semiheader{
+  padding: 3%;
 }
 
-.semiheader {
-  padding-top: 7%;
-  padding-bottom: 7%;
-  padding-left: 3%;
+.div-semiheader{
+  margin-top: 5%;
 }
 
 body {
@@ -22,6 +26,7 @@ body {
 }
 
 footer {
+  margin-top: 5%;
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 3%;
@@ -69,7 +74,7 @@ footer {
 
 /* Les balises de texte */
 
-h1, h2, h3 {
+h1, h2, h3, h4{
   text-align: left;
   color: #303030;
 }
@@ -80,19 +85,37 @@ h1 {
 
 h2 {
   font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 40px;
 }
+/* 
+.div-boite-duo h2 {
+  margin-top: 0%;
+} */
 
 h3 {
   font-size: 20px;
 }
 
+.div-titre-date h3 {
+  margin: 0%; 
+  margin-right: 15px;
+}
+
+h4 {
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.div-titre-date h4 {
+  margin: 2px;
+}
+
 p {
-  font-family: verdana;
   font-size: 17px;
 }
 
 a {
-  font-family: verdana;
   font-size: 17px;
   color: #303030;
 }
@@ -113,6 +136,7 @@ a {
 /* Les boutons */
 
 button {
+  font-family: 'Raleway';
   background-color: rgba(255, 255, 255, 0);
   width: 100%;
   border: none;
@@ -125,60 +149,77 @@ button {
 }
 
 button:hover {
+  font-weight: bold;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
 /* Les balises boîtes */
 
-.boite_milieu, .boite_gauche, .boite_droite {
+.div-boite-milieu, .div-boite-gauche, .div-boite-droite, .div-boite-duo {
   display: flex;
   background-color: white;
   border-radius: 15px;
   margin-top: 5%;
-  margin-bottom: 5%;
   padding: 2%;
-  flex-direction: column;
 }
 
-.boite_milieu {
-  margin: auto;
+.div-boite-milieu, .div-boite-gauche, .div-boite-droite{
+  width: 70%
 }
 
-.boite_gauche {
-  width: 70%;
+.div-boite-milieu {
+  margin-left: 15%;
 }
 
-.boite_droite {
-  width: 70%;
+.div-boite-droite {
   margin-left: 26%;
 }
 
 /* Les icones dans les boites */
-.icones {
+.div-icones-boites {
   display: flex;
   flex-wrap: wrap;
 }
 
-.boite_footer {
+.div-boites-duo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 7%;
+  margin-right: 7%;
+  justify-content: space-between;
+}
+
+.div-boite-duo {
+  width: 40%;
+  text-align: center;
+}
+
+.div-titre-date {
+  display: flex; flex-direction: row; 
+}
+
+.div-boite-footer {
   display: flex;
   flex-direction: row;
   margin-bottom: 0%;
 }
 
-.navigation, .contact {
+.div-navigation, .div-contact {
   margin:auto;
   display: flex;
   flex-direction: column;
 }
 
-.inner {
-  margin-top: 100px;
-  margin-bottom: 100px;
+.div-inner {
   margin-right: 150px;
   margin-left: 80px;
 }
 
-.defile {
+.div-contenu {
+  margin: 3%;
+}
+
+.div-boutons-defile {
   z-index: 1;
   padding-top: 1%;
   padding-bottom: 1%;
@@ -186,15 +227,48 @@ button:hover {
   display: flex;
   position: sticky;
   top:0%;
+  align-items: left;
 }
 
 html { scroll-behavior: smooth; }
 
-/* Le carousel */
+/* Les images */
+
+.img-rond, .img-carre {
+  height: 250px;
+  width: 250px;
+  margin: 3%;
+}
+
+.img-rond, .img-rond-petit, .img-rond-moyen {
+  border-radius: 50%;
+}
+
+.img-rond-petit {
+  height: 75px;
+  width: 75px;
+  margin: 3%;
+}
+
+.img-rond-moyen {
+  height: 100px;
+  width: 100px;
+  margin: 3%;
+}
+
+/* Le carrousel */
 
 .slider {
   margin: auto;
+  margin-top: 5%;
   width: 400px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slider-petit {
+  margin: auto;
+  margin-top: 5%;
   text-align: center;
   overflow: hidden;
 }
@@ -222,7 +296,7 @@ html { scroll-behavior: smooth; }
   background: transparent; 
 }
 
-.slides > div {
+.slides .div-grand-carrousel, .slides .div-petit-carrousel {
   scroll-snap-align: start;
   flex-shrink: 0;
   width: 400px;
@@ -239,10 +313,14 @@ html { scroll-behavior: smooth; }
   justify-content: center;
   align-items: center;
   font-size: 100px;
-  
 }
 
-.carrousel img {
+.slides .div-petit-carrousel {
+  width: 250px;
+  height: 250px;
+}
+
+.div-grand-carrousel img, .div-petit-carrousel img {
   object-fit: cover;
   position: absolute;
   top: 0;
@@ -252,7 +330,7 @@ html { scroll-behavior: smooth; }
   border-radius: 10px;
 }
 
-.slider > a {
+.slider > a, .slider-petit > a{
   display: inline-flex;
   width: 1.5rem;
   height: 1.5rem;
@@ -265,10 +343,18 @@ html { scroll-behavior: smooth; }
   position: relative;
 }
 
-.slider > a:active {
+.slider-petit > a {
+  background: #B4E4F8;
+}
+
+.slider > a:active, .slider-petit > a:active {
   top: 1px;
 }
 
 .slider > a:hover {
   background: #B4E4F8;
+}
+
+.slider-petit > a:hover {
+  background: #E7C8F9;
 }
