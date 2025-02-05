@@ -120,6 +120,10 @@ a {
   color: #303030;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .sr-only {
 	border: 0 !important;
 	clip: rect(1px, 1px, 1px, 1px) !important;
@@ -269,8 +273,8 @@ html { scroll-behavior: smooth; }
 .slider-petit {
   margin: auto;
   margin-top: 5%;
+  width: 250px;
   text-align: center;
-  overflow: hidden;
 }
 
 .slides {
