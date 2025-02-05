@@ -145,12 +145,12 @@ button:hover {
 }
 
 .boite_gauche {
-  width: 60%;
+  width: 70%;
 }
 
 .boite_droite {
-  width: 60%;
-  margin-left: 36%;
+  width: 70%;
+  margin-left: 26%;
 }
 
 /* Les icones dans les boites */
