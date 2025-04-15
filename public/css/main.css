@@ -18,6 +18,11 @@ header, .div-semiheader{
 
 .div-semiheader{
   margin-top: 5%;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+}
+
+.div-boutons-defile {
+  box-shadow: 0px 2px 2px 0px rgba(50, 50, 50, 0.5);
 }
 
 body {
@@ -30,6 +35,7 @@ footer {
   padding-top: 3%;
   padding-bottom: 3%;
   padding-left: 3%;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
 }
 
 /* Le menu burger */
@@ -45,8 +51,8 @@ footer {
 
 .topnav a {
   color: #303030;
-  padding: 14px 16px;
-  font-size: 25px;
+  padding: 14px 20px;
+  font-size: 40px;
 }
 
 .topnav a.icon {
@@ -68,7 +74,7 @@ footer {
   top: 0.5rem;
   padding-top: 2%;
   padding-bottom: 2%;
-  border-radius: 15px;
+  border-radius: 5px;
   box-shadow: 0 0 1rem hsl(0, 0%, 75%);
 }
 
@@ -149,7 +155,7 @@ button {
   text-align: center;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -159,41 +165,46 @@ button:hover {
 
 /* Les balises boîtes */
 
-.div-boite-milieu, .div-boite-gauche, .div-boite-droite, .div-boite-duo {
+.div-boite-milieu-ordi, .div-boite-gauche-ordi, .div-boite-droite-ordi, .div-boite-duo-ordi {
   display: flex;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 5px;
   margin-top: 5%;
   padding: 2%;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
 }
 
-.div-boite-milieu, .div-boite-gauche, .div-boite-droite{
+.div-boite-milieu-ordi, .div-boite-gauche-ordi, .div-boite-droite-ordi{
   width: 70%
 }
 
-.div-boite-milieu {
+.div-boite-milieu-ordi {
   margin-left: 15%;
 }
 
-.div-boite-droite {
+.div-boite-droite-ordi {
   margin-left: 26%;
 }
 
+/* @media (max-width:1200px){
+  .div-boite-milieu-ordi, .div-boite-gauche-ordi, .div-boite-droite-ordi, .div-boite-duo-ordi {
+    display: none;
+  }
+} */
+
 /* Les icones dans les boites */
-.div-icones-boites {
+.div-icones-boites-ordi {
   display: flex;
   flex-wrap: wrap;
 }
 
-.div-boites-duo {
+.div-boites-duo-ordi {
   display: flex;
   flex-direction: row;
-  margin-left: 7%;
-  margin-right: 7%;
   justify-content: space-between;
 }
 
-.div-boite-duo {
+.div-boite-duo-ordi {
   width: 40%;
   text-align: center;
 }
@@ -306,7 +317,7 @@ html { scroll-behavior: smooth; }
   width: 400px;
   height: 400px;
   margin-right: 50px;
-  border-radius: 10px;
+  border-radius: 5px;
   background: #eee;
   transform-origin: center center;
   transform: scale(1);
@@ -331,7 +342,7 @@ html { scroll-behavior: smooth; }
   left: 0;
   width: 100%;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .slider > a, .slider-petit > a{
@@ -361,4 +372,98 @@ html { scroll-behavior: smooth; }
 
 .slider-petit > a:hover {
   background: #E7C8F9;
+}
+
+.carousel {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.carousel-list {
+    display: flex;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    height: 400px;
+    justify-content: center;
+    perspective: 300px;
+  }
+  
+.carousel-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+    position: absolute;
+    transition: all .3s ease-in;
+
+    &:nth-child(1) {
+      background-image: url(../images/placeholder.png);
+      background-size: 400px 400px;
+    }
+    &:nth-child(2) {
+      background-image: url(../images/illu3DS.jpg);
+      background-size: 400px 400px;
+    }
+    &:nth-child(3) {
+      background-image: url(../images/chat_odyssee.png);
+      background-size: 400px 400px;
+    }
+    &:nth-child(4) {
+      background-image: url(../images/placeholder.jpg);
+      background-size: 400px 400px;
+    }
+    &:nth-child(5) {
+      background-image: url(../images/placeholder.png);
+      background-size: 400px 400px;
+    }
+    
+    &[data-pos="0"] {
+      z-index: 5;
+    }
+    
+    &[data-pos="-1"], &[data-pos="1"] {
+      opacity: 0.7;
+      filter: blur(1px) grayscale(10%);
+    }
+    
+    &[data-pos="-1"] {
+      transform: translateX(-40%) scale(.9);
+      z-index: 4;
+    }
+    
+    &[data-pos="1"] {
+      transform: translateX(40%) scale(.9);
+      z-index: 4;
+    }
+    
+    &[data-pos="-2"], &[data-pos="2"] {
+      opacity: 0.4;
+      filter: blur(3px) grayscale(20%);
+    }
+    
+    &[data-pos="-2"] {
+      transform: translateX(-70%) scale(.8);
+      z-index: 3;
+    }
+    
+    &[data-pos="2"] {
+      transform: translateX(70%) scale(.8);
+      z-index: 3;
+    }
+  }
+
+.carousel-item-footer {
+  padding: 20px;
+}
+
+.carousel-item-header, .carousel-item-footer {
+  background-color: white;
+  padding-left: 10%;
 }
