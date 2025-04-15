@@ -1,34 +1,53 @@
 {
-    "SAE_R3":{
+    "0":{
         "nom":"ChâtOdyssée", 
-        "visuel":"public/images/SAE_R3.png", 
+        "visuel":"public/images/placeholder.png", 
         "resume":"Résumé rapide", 
         "desc":"Description générale du projet", 
         "contribution":"Ma contribution au projet", 
+        "langages":{
+            "0":"PHP",
+            "1":"HTML",
+            "2":"CSS",
+            "3":"JavaScript",
+            "4":"SQL"
+        },
         "fichiers":{
             "fichier1":"lien", 
-            "fichier2":"lien"}
+            "fichier2":"lien"
+        }
     },
 
-    "Jeu 3DS":{
-    "nom":"Jeu 3DS", 
-    "visuel":"public/images/SAE_R3.png", 
-    "resume":"Résumé rapide", 
-    "desc":"Description générale du projet", 
-    "contribution":"Ma contribution au projet", 
-    "fichiers":{
-        "fichier1":"lien", 
-        "fichier2":"lien"}
+    "1":{
+        "nom":"Jeu 3DS", 
+        "visuel":"public/images/placeholder.png", 
+        "resume":"Résumé rapide", 
+        "desc":"Description générale du projet", 
+        "contribution":"Ma contribution au projet",
+        "langages":{
+            "0":"Lua"
+        },
+        "fichiers":{
+            "1":"lien", 
+            "2":"lien"
+        }
     },
 
-    "SAE_R4":{
-    "nom":"Carnet de recherche de stage", 
-    "visuel":"public/images/cha.png", 
-    "resume":"Résumé rapide", 
-    "desc":"Description générale du projet", 
-    "contribution":"Ma contribution au projet", 
-    "fichiers":{
-        "fichier1":"lien", 
-        "fichier2":"lien"}
+    "2":{
+        "nom":"Carnet de recherche de stage", 
+        "visuel":"public/images/placeholder.png", 
+        "resume":"Résumé rapide", 
+        "desc":"Description générale du projet", 
+        "contribution":"Ma contribution au projet",
+        "langages":{
+            "0":"PHP",
+            "1":"Symfony",
+            "2":"Java",
+            "3":"UML"
+        },
+        "fichiers":{
+            "1":"lien", 
+            "2":"lien"
+        }
     }
 }

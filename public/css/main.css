@@ -80,7 +80,7 @@ footer {
 
 /* Les balises de texte */
 
-h1, h2, h3, h4{
+h1, h2, h3, h4, h5{
   text-align: left;
   color: #303030;
 }
@@ -115,6 +115,13 @@ h4 {
 
 .div-titre-date h4 {
   margin: 2px;
+}
+
+h5 {
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+  padding: 15px 32px;
 }
 
 p {
