@@ -1,0 +1,34 @@
+{
+    "SAE_R3":{
+        "nom":"ChâtOdyssée", 
+        "visuel":"public/images/SAE_R3.png", 
+        "resume":"Résumé rapide", 
+        "desc":"Description générale du projet", 
+        "contribution":"Ma contribution au projet", 
+        "fichiers":{
+            "fichier1":"lien", 
+            "fichier2":"lien"}
+    },
+
+    "Jeu 3DS":{
+    "nom":"Jeu 3DS", 
+    "visuel":"public/images/SAE_R3.png", 
+    "resume":"Résumé rapide", 
+    "desc":"Description générale du projet", 
+    "contribution":"Ma contribution au projet", 
+    "fichiers":{
+        "fichier1":"lien", 
+        "fichier2":"lien"}
+    },
+
+    "SAE_R4":{
+    "nom":"Carnet de recherche de stage", 
+    "visuel":"public/images/cha.png", 
+    "resume":"Résumé rapide", 
+    "desc":"Description générale du projet", 
+    "contribution":"Ma contribution au projet", 
+    "fichiers":{
+        "fichier1":"lien", 
+        "fichier2":"lien"}
+    }
+}
