@@ -25,7 +25,7 @@
         "desc":"Description générale du projet", 
         "contribution":"Ma contribution au projet",
         "langages":{
-            "0":"Lua"
+            "0":"C++"
         },
         "fichiers":{
             "1":"lien", 

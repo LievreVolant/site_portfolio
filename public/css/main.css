@@ -4,6 +4,10 @@
 
 /* Les parties principales */
 html {
+  --main-color: #9DB285;
+  --secondary-color: #A295CD;
+  --tierce-color: #1B1B1C;
+  --black: #303030;
   font-family: 'Raleway';
 }
 
@@ -26,6 +30,7 @@ header, .div-semiheader{
 }
 
 body {
+  background-color: var(--main-color);
   z-index: 0;
   margin: 0px;
 }
@@ -65,7 +70,7 @@ footer {
 
 .active {
   z-index: 2;
-  background-color: white;
+  background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -82,7 +87,7 @@ footer {
 
 h1, h2, h3, h4, h5{
   text-align: left;
-  color: #303030;
+  color: var(--black);
 }
 
 h1 {
@@ -130,7 +135,7 @@ p {
 
 a {
   font-size: 17px;
-  color: #303030;
+  color: var(--black);
 }
 
 a:hover {
@@ -157,7 +162,7 @@ button {
   background-color: rgba(255, 255, 255, 0);
   width: 100%;
   border: none;
-  color: #303030;
+  color: var(--black);
   padding: 15px 32px;
   text-align: center;
   cursor: pointer;
@@ -310,7 +315,7 @@ html { scroll-behavior: smooth; }
 }
 
 .slides::-webkit-scrollbar-thumb {
-  background: #B4E4F8;
+  background: var(--secondary-color);
   border-radius: 10px;
 }
 
@@ -366,7 +371,7 @@ html { scroll-behavior: smooth; }
 }
 
 .slider-petit > a {
-  background: #B4E4F8;
+  background: var(--secondary-color);
 }
 
 .slider > a:active, .slider-petit > a:active {
@@ -374,11 +379,11 @@ html { scroll-behavior: smooth; }
 }
 
 .slider > a:hover {
-  background: #B4E4F8;
+  background: var(--secondary-color);
 }
 
 .slider-petit > a:hover {
-  background: #E7C8F9;
+  background: var(--secondary-color);
 }
 
 .carousel {

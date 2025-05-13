@@ -1,13 +1,64 @@
-/* Couleur du fond */
-body {
-    background-color: #FFCEE5;
-}
-
-.active {
-  background-color: #BDEFD1;
+html {
+  --php-color: #223462;
+  --sql-color: #6DB367;
+  --html-color: #E3ABE9;
+  --css-color: #E7DA94;
+  --cpp-color: #223462;
+  --python-color: #C1C858;
+  --javascript-color: #F0E02F;
+  --java-color: #75B6C3;
+  --uml-color: #EB8A90;
 }
 
 .img-projet {
   width: 250px;
   height: 250px;
+}
+
+.bouton-filtre {
+  width: auto;
+}
+
+.bouton-filtre:hover, .selected:hover {
+  cursor: pointer;
+  border: solid;
+  border-color: var(--secondary-color);
+}
+
+.selected {
+  background-color: var(--secondary-color);
+}
+
+.div-tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tag-langage {
+  width: auto;
+  margin: 5%;
+  padding: 5px;
+  border: solid;
+  border-radius: 20px;
+
+  &.tag-PHP, &.tag-Symfony {
+    border-color: var(--php-color);
+  } &.tag-Java {
+    border-color: var(--java-color);
+  } &.tag-Python {
+    border-color: var(--python-color);
+  } &.tag-C\+\+ {
+    border-color: var(--cpp-color);
+  } &.tag-UML {
+    border-color: var(--uml-color);
+  } &.tag-JavaScript {
+    border-color: var(--javascript-color);
+  } &.tag-HTML {
+    border-color: var(--html-color);
+  } &.tag-CSS {
+    border-color: var(--css-color);
+  } &.tag-SQL {
+    border-color: var(--sql-color);
+  }
+
 }
