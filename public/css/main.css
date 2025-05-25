@@ -267,6 +267,10 @@ html { scroll-behavior: smooth; }
   margin: 3%;
 }
 
+.img-carre {
+  border-radius: 5px;
+}
+
 .img-rond, .img-rond-petit, .img-rond-moyen {
   border-radius: 50%;
 }
@@ -537,12 +541,12 @@ html { scroll-behavior: smooth; }
     }
     
     &[data-pos="-1"] {
-      transform: translateX(-20%) scale(.9);
+      transform: translateX(-25%) scale(.9);
       z-index: 4;
     }
     
     &[data-pos="1"] {
-      transform: translateX(20%) scale(.9);
+      transform: translateX(25%) scale(.9);
       z-index: 4;
     }
     

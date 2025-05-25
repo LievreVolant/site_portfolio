@@ -73,7 +73,7 @@
     },
 
     "3":{
-        "nom":"Bloomy", 
+        "nom":"BloomyFleet", 
         "visuel":"public/images/placeholder.png", 
         "resume":"Résumé rapide", 
         "desc":"Description générale du projet", 

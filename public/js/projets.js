@@ -22,7 +22,7 @@ fetch('public/js/projets.json')
             }
 
             let img = document.createElement("img");
-            img.classList.add("img-projet");
+            img.classList.add("img-carre");
             img.src = projet.visuel;
 
             let divTexte = document.createElement("div");
