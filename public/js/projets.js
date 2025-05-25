@@ -72,7 +72,7 @@ fetch('public/js/projets.json')
             bouton.classList.add("bouton-filtre");
             bouton.append(langage);
             bouton.addEventListener("click", function (event) {
-                if (filtre === "aucun") {
+                if (filtre === "aucun" || filtre !== langage) {
                     filtre = langage;
                 } else {
                     filtre = "aucun";
