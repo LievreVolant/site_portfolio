@@ -2,12 +2,14 @@ html {
   --php-color: #223462;
   --sql-color: #6DB367;
   --html-color: #E3ABE9;
-  --css-color: #E7DA94;
-  --cpp-color: #223462;
+  --css-color: #bedee5;
+  --cpp-color: #354c85;
   --python-color: #C1C858;
-  --javascript-color: #F0E02F;
+  --javascript-color: #fbeb3e;
   --java-color: #75B6C3;
   --uml-color: #EB8A90;
+  --angular-color: #741f96;
+  --graphql-color: #d462e8;
 }
 
 .img-projet {
@@ -17,6 +19,11 @@ html {
 
 .bouton-filtre {
   width: auto;
+  padding: 10px 20px;
+}
+
+.div-filtres {
+  width: 90%;
 }
 
 .bouton-filtre:hover, .selected:hover {
@@ -36,8 +43,8 @@ html {
 
 .tag-langage {
   width: auto;
-  margin: 5%;
-  padding: 5px;
+  margin: 5px;
+  padding: 6px;
   border: solid;
   border-radius: 20px;
 
@@ -49,10 +56,20 @@ html {
     border-color: var(--python-color);
   } &.tag-C\+\+ {
     border-color: var(--cpp-color);
+  } &.tag-C\# {
+    border-color: var(--cpp-color);
   } &.tag-UML {
     border-color: var(--uml-color);
   } &.tag-JavaScript {
     border-color: var(--javascript-color);
+  } &.tag-TypeScript {
+    border-color: var(--javascript-color);
+  } &.tag-Angular {
+    border-color: var(--angular-color);
+  } &.tag-Tailwind {
+    border-color: var(--angular-color);
+  } &.tag-GraphQl {
+    border-color: var(--graphql-color);
   } &.tag-HTML {
     border-color: var(--html-color);
   } &.tag-CSS {

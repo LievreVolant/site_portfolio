@@ -1,10 +1,10 @@
 {
     "0":{
-        "nom":"ChâtOdyssée", 
-        "visuel":"public/images/placeholder.png", 
-        "resume":"Résumé rapide", 
-        "desc":"Description générale du projet", 
-        "contribution":"Ma contribution au projet", 
+        "nom":"Chât'Odyssée", 
+        "visuel":"public/images/chat_odyssee.png", 
+        "resume":"Chât'Odyssée est une application web de carnet de voyage où chacun peut consigner ses expéditions dans les châteaux de la région Auvergne-Rhônes-Alpes ainsi que se renseigner sur les prochains château à visiter. Ce projet fût réalisé en équipe de 6 dans le cadre de la \"SAE\" du troisième semestre du BUT dont le thème était \"Valoriser le patrimoine culturelle\".", 
+        "desc":"Chât'Odyssée est le premier projet que j'ai réalisé en BUT, nous avons pu mettre en pratique nos connaissances sur toutes les étapes de projet, de la conception à la réalisation.", 
+        "contribution":"Ce projet étant le tout premier auquel j'ai pu participer, je manquais d'expérience vis-à-vis de mes collègues. J'ai donc comblé ce manque d'expérience en me concentrant sur ce que je connaissais, en amont du développement, je me suis donc occupée de la récolte des données sur les châteaux, et leur formatage via le logiciel Talend. Ensuite, durant le dévellopement de l'application, j'ai pu mettre en place la recherche de château ainsi que l'affichage des activités des amis sur la page d'accueil.", 
         "langages":{
             "0":"PHP",
             "1":"HTML",
@@ -13,37 +13,38 @@
             "4":"SQL"
         },
         "images":{
+            "0":"lien",
             "1":"lien", 
             "2":"lien",
             "3":"lien", 
-            "4":"lien",
-            "5":"lien"
+            "4":"lien"
         },
         "fichiers":{
-            "1":"lien", 
-            "2":"lien"
+            "0":"lien",
+            "1":"lien"
         }
     },
 
     "1":{
         "nom":"Jeu 3DS", 
-        "visuel":"public/images/placeholder.png", 
-        "resume":"Résumé rapide", 
+        "visuel":"public/images/illu3DS.jpg", 
+        "resume":"Ce jeu est encore à l'étape de conception, il sera réalisé par moi et 3 de mes amis, chacun nous occupant de notre spécialité: code, dessin, musique... \nNous comptons organiser un \"bootcamp\" cet été où nous projetons d'en développer une démo en une semaine.", 
         "desc":"Description générale du projet", 
-        "contribution":"Ma contribution au projet",
+        "contribution":"Mon rôle dans ce projet est celui de co-cheffe de projet, développeuse, et scénariste. J'écris actuellement l'histoire principale du jeu avec mon meilleur, tout en me familiarisant avec le fonctionnement d'Unity pour 3DS.",
         "langages":{
-            "0":"C++"
+            "0":"C++",
+            "1":"C#"
         },
         "images":{
+            "0":"lien",
             "1":"lien", 
             "2":"lien",
             "3":"lien", 
-            "4":"lien",
-            "5":"lien"
+            "4":"lien"
         },
         "fichiers":{
-            "1":"lien", 
-            "2":"lien"
+            "0":"lien",
+            "1":"lien"
         }
     },
 
@@ -60,15 +61,15 @@
             "3":"UML"
         },
         "images":{
+            "0":"lien",
             "1":"lien", 
             "2":"lien",
             "3":"lien", 
-            "4":"lien",
-            "5":"lien"
+            "4":"lien"
         },
         "fichiers":{
-            "1":"lien", 
-            "2":"lien"
+            "0":"lien",
+            "1":"lien"
         }
     },
 
@@ -81,18 +82,19 @@
         "langages":{
             "0":"TypeScript",
             "1":"Angular",
-            "2":"GraphQl"
+            "2":"GraphQl", 
+            "3":"Tailwind"
         },
         "images":{
+            "0":"lien",
             "1":"lien", 
             "2":"lien",
             "3":"lien", 
-            "4":"lien",
-            "5":"lien"
+            "4":"lien"
         },
         "fichiers":{
-            "1":"lien", 
-            "2":"lien"
+            "0":"lien",
+            "1":"lien"
         }
     }
 }

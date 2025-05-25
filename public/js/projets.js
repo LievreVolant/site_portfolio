@@ -1,6 +1,7 @@
 let inner = document.getElementsByClassName('div-inner')[0];
 let divFiltres = document.getElementsByClassName('div-filtres')[0];
 let listeLangages = [];
+let filtre = "aucun";
 
 fetch('public/js/projets.json')
     .then(response => {
@@ -71,7 +72,12 @@ fetch('public/js/projets.json')
             bouton.classList.add("bouton-filtre");
             bouton.append(langage);
             bouton.addEventListener("click", function (event) {
-                lancerAvecFiltre(langage);
+                if (filtre === "aucun") {
+                    filtre = langage;
+                } else {
+                    filtre = "aucun";
+                }
+                lancerAvecFiltre(filtre);
             })
             divFiltres.append(bouton);
         }
@@ -88,7 +94,6 @@ function lancerAvecFiltre(filtre) {
             }
             return response.json();
         }).then(contenu => {
-            let listeLangages = [];
             inner.innerHTML = "";
             let paire = 0;
 
