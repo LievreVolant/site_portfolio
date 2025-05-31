@@ -22,9 +22,14 @@ fetch('public/js/projets.json')
                 divLarge.classList.add("div-boite-droite-ordi");
             }
 
+            let lien = document.createElement('a');
+            lien.setAttribute("href", "template_projet.html?projet="+i)
+
             let img = document.createElement("img");
-            img.classList.add("img-carre");
+            img.classList.add("img-projet");
             img.src = projet.visuel;
+
+            lien.append(img);
 
             let divTexte = document.createElement("div");
             divTexte.classList.add("div-contenu");
@@ -55,11 +60,11 @@ fetch('public/js/projets.json')
             divTexte.append(divTags);
 
             if (paire % 2 == 0) {
-                divLarge.append(img);
+                divLarge.append(lien);
                 divLarge.append(divTexte);
             } else {
                 divLarge.append(divTexte);
-                divLarge.append(img);
+                divLarge.append(lien);
             }
 
             inner.append(divLarge);
@@ -109,9 +114,14 @@ function lancerAvecFiltre(filtre) {
                         divLarge.classList.add("div-boite-droite-ordi");
                     }
 
+                    let lien = document.createElement('a');
+                    lien.setAttribute("href", "template_projet.html?projet="+i)
+
                     let img = document.createElement("img");
                     img.classList.add("img-projet");
                     img.src = projet.visuel;
+
+                    lien.append(img);
 
                     let divTexte = document.createElement("div");
                     divTexte.classList.add("div-contenu");
@@ -139,11 +149,11 @@ function lancerAvecFiltre(filtre) {
                     divTexte.append(divTags);
 
                     if (paire % 2 == 0) {
-                        divLarge.append(img);
+                        divLarge.append(lien);
                         divLarge.append(divTexte);
                     } else {
                         divLarge.append(divTexte);
-                        divLarge.append(img);
+                        divLarge.append(lien);
                     }
 
                     inner.append(divLarge);
