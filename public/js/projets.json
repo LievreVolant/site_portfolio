@@ -82,8 +82,7 @@
         "langages":{
             "0":"TypeScript",
             "1":"Angular",
-            "2":"GraphQl", 
-            "3":"Tailwind"
+            "2":"GraphQl"
         },
         "images":{
             "0":"lien",

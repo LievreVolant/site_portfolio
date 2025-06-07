@@ -398,7 +398,7 @@ html { scroll-behavior: smooth; }
   align-items: center;
 }
 
-.carousel-carre-list {
+#carousel-carre-list {
     display: flex;
     list-style: none;
     position: relative;
@@ -420,23 +420,18 @@ html { scroll-behavior: smooth; }
     transition: all .3s ease-in;
 
     &:nth-child(1) {
-      background-image: url(../images/placeholder.png);
       background-size: 400px 400px;
     }
     &:nth-child(2) {
-      background-image: url(../images/illu3DS.jpg);
       background-size: 400px 400px;
     }
     &:nth-child(3) {
-      background-image: url(../images/chat_odyssee.png);
       background-size: 400px 400px;
     }
     &:nth-child(4) {
-      background-image: url(../images/placeholder.png);
       background-size: 400px 400px;
     }
     &:nth-child(5) {
-      background-image: url(../images/placeholder.png);
       background-size: 400px 400px;
     }
     
