@@ -3,7 +3,7 @@
         "nom":"Chât'Odyssée", 
         "visuel":"public/images/chat_odyssee.png", 
         "resume":"Chât'Odyssée est une application web de carnet de voyage où chacun peut consigner ses expéditions dans les châteaux de la région Auvergne-Rhônes-Alpes ainsi que se renseigner sur les prochains château à visiter. Ce projet fût réalisé en équipe de 6 dans le cadre de la \"SAE\" du troisième semestre du BUT dont le thème était \"Valoriser le patrimoine culturelle\".", 
-        "desc":"Chât'Odyssée est le premier projet que j'ai réalisé en BUT, nous avons pu mettre en pratique nos connaissances sur toutes les étapes de projet, de la conception à la réalisation.", 
+        "desc":"Chât'Odyssée est le premier projet que j'ai réalisé en BUT, nous avons pu mettre en pratique nos connaissances sur toutes les étapes de projet, du cadrage du projet à sa réalisation.", 
         "contribution":"Ce projet étant le tout premier auquel j'ai pu participer, je manquais d'expérience vis-à-vis de mes collègues. J'ai donc comblé ce manque d'expérience en me concentrant sur ce que je connaissais, en amont du développement, je me suis donc occupée de la récolte des données sur les châteaux, et leur formatage via le logiciel Talend. Ensuite, durant le dévellopement de l'application, j'ai pu mettre en place la recherche de château ainsi que l'affichage des activités des amis sur la page d'accueil.", 
         "langages":{
             "0":"PHP",
@@ -35,10 +35,6 @@
             }
         },
         "liens":{
-            "0":{
-                "nom":"",
-                "lien":""
-            }
         }
     },
 
@@ -55,7 +51,7 @@
         "images":{
             "0":{
                 "nom":"Notre équipe",
-                "lien":"public/images/placeholder.png"
+                "lien":"public/images/nous.png"
             },
             "1":{
                 "nom":"Début de conception des mini-jeux",
@@ -77,7 +73,7 @@
         "liens":{
             "0":{
                 "nom":"La page Github",
-                "lien":""
+                "lien":"https://github.com/LievreVolant"
             }
         }
     },
