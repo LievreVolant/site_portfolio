@@ -84,7 +84,7 @@
 
     "2":{
         "nom":"Alchi'Mix", 
-        "visuel":"public/images/placeholder.jpg", 
+        "visuel":"public/images/alchimix_res.png", 
         "resume":"Projet réalisé en quelques jours afin de se familiariser avec l'utilisation des APIs en JavaScript",
         "desc":"Alchi'Mix est une application permettant de consulter les données de l'API TheCocktailDB, elle permet également de créer ses propres cocktails de façon ludique. Nous avons réalisé cette application en équipe de 3.", 
         "contribution":"Je me suis occupée de la partie création de cocktails. J'ai récupéré les ingrédients grâce au service principal réalisé par une autre membre de notre équipe. J'ai ensuite généré un cocktail aléatoire à afficher : une ilustration aléatoire parmis celles de application et un nom constitué d'un préfixe aléatoire et un des ingrédient du cocktail. Nous souhaitions faire en sorte d'afficher les données de l'API si l'utilisateur choississais les ingrédients d'un cocktail existant mais cela nécessitait trop d'appels pour effectuer la corespondance des ingrédients",
@@ -104,11 +104,11 @@
             },
             "2":{
                 "nom":"Création d'un cocktail",
-                "lien":"public/images/placeholder.png"
+                "lien":"public/images/alchimix_crea.png"
             },
             "3":{
-                "nom":"",
-                "lien":"public/images/placeholder.png"
+                "nom":"Résultat de la création de cocktail",
+                "lien":"public/images/alchimix_res.png"
             },
             "4":{
                 "nom":"",
@@ -125,7 +125,7 @@
 
     "3":{
         "nom":"Carnet de recherche de stage", 
-        "visuel":"public/images/placeholder.jpg", 
+        "visuel":"public/images/icon_carnet.png", 
         "resume":"Second projet réalisé en BUT. Prenant place durant le semestre contenant le stage de fin d'année, ce projet consistait à améliorer une application existante.", 
         "desc":"L'objectif de ce projet était d'améliorer une application existante de gestion de stages par rapport à des critères de qualités choisis par nos soins. Notre groupe a choisis de se concentrer sur les critères de ..., ... et .... L'application possède un back-office web pour le responsable des stages, codé en PHP Symfony, et un front office Android, destiné aux étudiants, codé en Java et UML.", 
         "contribution":"Je me suis occupée de réaliser quelques unes des interfaces du front-office Android. J'ai également réalisé les pages d'affichages d'offres de stage et de demandes de stage en cours. Enfin j'ai apporté mon aide pour la réalisation du visuel de certaines des autres pages de l'application mobile.",
@@ -179,19 +179,19 @@
             },
             "1":{
                 "nom":"Liste des Bloomy",
-                "lien":"public/images/placeholder.png"
+                "lien":"public/images/bloomy_bloomydetails.png"
             },
             "2":{
                 "nom":"Tableau de bord",
-                "lien":"public/images/placeholder.png"
+                "lien":"public/images/bloomy_dashboard.png"
             },
             "3":{
                 "nom":"Liste des utilisateurs",
-                "lien":"public/images/placeholder.png"
+                "lien":"public/images/bloomy_edituser.png"
             },
             "4":{
-                "nom":"Page de connexion",
-                "lien":"public/images/placeholder.png"
+                "nom":"Formulaire de nouvel utilisateur",
+                "lien":"public/images/bloomy_form.png"
             }
         },
         "liens":{
