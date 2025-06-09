@@ -11,17 +11,21 @@ html {
   font-family: 'Raleway';
 }
 
-header, footer, .div-boutons-defile, .div-semiheader {
+header, footer, .div-boutons-defile, .div-semiheader, .header_ombres {
   background-color: white;
   margin: none;
 }
 
-header, .div-semiheader{
+header, .div-semiheader, .header_ombres {
   padding: 3%;
 }
 
-.div-semiheader{
+.div-semiheader {
   margin-top: 5%;
+  box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
+}
+
+.header_ombres {
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.5);
 }
 
@@ -484,7 +488,7 @@ html { scroll-behavior: smooth; }
   padding-left: 10%;
 }
 
-.carousel-rectangle-list {
+#carousel-rectangle-list {
     display: flex;
     list-style: none;
     position: relative;
@@ -506,24 +510,24 @@ html { scroll-behavior: smooth; }
     transition: all .3s ease-in;
 
     &:nth-child(1) {
-      background-image: url(../images/placeholder.png);
-      background-size: 400px 400px;
+      background-image: url(../images/placeholder.jpg);
+      background-size: 500px 350px;
     }
     &:nth-child(2) {
-      background-image: url(../images/illu3DS.jpg);
-      background-size: 400px 400px;
+      background-image: url(../images/placeholder.jpg);
+      background-size: 500px 350px;
     }
     &:nth-child(3) {
-      background-image: url(../images/chat_odyssee.png);
-      background-size: 400px 400px;
+      background-image: url(../images/placeholder.jpg);
+      background-size: 500px 350px;
     }
     &:nth-child(4) {
-      background-image: url(../images/placeholder.png);
-      background-size: 400px 400px;
+      background-image: url(../images/placeholder.jpg);
+      background-size: 500px 350px;
     }
     &:nth-child(5) {
-      background-image: url(../images/placeholder.png);
-      background-size: 400px 400px;
+      background-image: url(../images/placeholder.jpg);
+      background-size: 500px 350px;
     }
     
     &[data-pos="0"] {

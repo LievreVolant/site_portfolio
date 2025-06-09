@@ -13,47 +13,122 @@
             "4":"SQL"
         },
         "images":{
-            "0":"lien",
-            "1":"lien", 
-            "2":"lien",
-            "3":"lien", 
-            "4":"lien"
+            "0":{
+                "nom":"La page d'accueil",
+                "lien":"public/images/placeholder.png"
+            },
+            "1":{
+                "nom":"Le carnet de voyage",
+                "lien":"public/images/placeholder.png"
+            },
+            "2":{
+                "nom":"La page de recherche",
+                "lien":"public/images/placeholder.png"
+            },
+            "3":{
+                "nom":"Le profil de l'utilisateur",
+                "lien":"public/images/placeholder.png"
+            },
+            "4":{
+                "nom":"Les activités et notifications",
+                "lien":"public/images/placeholder.png"
+            }
         },
-        "fichiers":{
-            "0":"lien",
-            "1":"lien"
+        "liens":{
+            "0":{
+                "nom":"",
+                "lien":""
+            }
         }
     },
 
     "1":{
-        "nom":"Jeu 3DS", 
+        "nom":"Deus Ex Machina", 
         "visuel":"public/images/illu3DS.jpg", 
         "resume":"Ce jeu est encore à l'étape de conception, il sera réalisé par moi et 3 de mes amis, chacun nous occupant de notre spécialité: code, dessin, musique... \nNous comptons organiser un \"bootcamp\" cet été où nous projetons d'en développer une démo en une semaine.", 
-        "desc":"Description générale du projet", 
-        "contribution":"Mon rôle dans ce projet est celui de co-cheffe de projet, développeuse, et scénariste. J'écris actuellement l'histoire principale du jeu avec mon meilleur, tout en me familiarisant avec le fonctionnement d'Unity pour 3DS.",
+        "desc":"Ce projet nous tiens énormément à coeur à mon meilleur ami et moi, cela fait maintenant 4 ans que nous révons de créer notre jeu avec toutes les fonctionnalités que nous aimons. Mais cela fait seulement depuis septembre dernier que nous traitons réellement ce rêve comme un projet concret. Ce projet me permet également de mettre en pratique les méthodes de gestion de projet que j'apprends en BUT et ailleurs.", 
+        "contribution":"Mon rôle dans ce projet est celui de co-cheffe de projet, développeuse, et scénariste. J'écris actuellement le scénario du jeu avec mon meilleur ami, tout en me familiarisant avec le fonctionnement d'Unity pour 3DS. J'apprends également la modélisation 3d sur Blender afin de pouvoir aider plus tard notre game designer si nécessaire",
         "langages":{
             "0":"C++",
             "1":"C#"
         },
         "images":{
-            "0":"lien",
-            "1":"lien", 
-            "2":"lien",
-            "3":"lien", 
-            "4":"lien"
+            "0":{
+                "nom":"Notre équipe",
+                "lien":"public/images/placeholder.png"
+            },
+            "1":{
+                "nom":"Début de conception des mini-jeux",
+                "lien":"public/images/placeholder.png"
+            },
+            "2":{
+                "nom":"ClickUp et l'organisation du projet",
+                "lien":"public/images/placeholder.png"
+            },
+            "3":{
+                "nom":"Le premier test sur 3DS",
+                "lien":"public/images/placeholder.png"
+            },
+            "4":{
+                "nom":"",
+                "lien":"public/images/placeholder.png"
+            }
         },
-        "fichiers":{
-            "0":"lien",
-            "1":"lien"
+        "liens":{
+            "0":{
+                "nom":"La page Github",
+                "lien":""
+            }
         }
     },
 
     "2":{
+        "nom":"Alchi'Mix", 
+        "visuel":"public/images/placeholder.jpg", 
+        "resume":"Projet réalisé en quelques jours afin de se familiariser avec l'utilisation des APIs en JavaScript",
+        "desc":"Alchi'Mix est une application permettant de consulter les données de l'API TheCocktailDB, elle permet également de créer ses propres cocktails de façon ludique. Nous avons réalisé cette application en équipe de 3.", 
+        "contribution":"Je me suis occupée de la partie création de cocktails. J'ai récupéré les ingrédients grâce au service principal réalisé par une autre membre de notre équipe. J'ai ensuite généré un cocktail aléatoire à afficher : une ilustration aléatoire parmis celles de application et un nom constitué d'un préfixe aléatoire et un des ingrédient du cocktail. Nous souhaitions faire en sorte d'afficher les données de l'API si l'utilisateur choississais les ingrédients d'un cocktail existant mais cela nécessitait trop d'appels pour effectuer la corespondance des ingrédients",
+        "langages":{
+            "0":"HTML",
+            "1":"CSS",
+            "2":"JavaScript"
+        },
+        "images":{
+            "0":{
+                "nom":"La page d'accueil",
+                "lien":"public/images/placeholder.png"
+            },
+            "1":{
+                "nom":"La page de recherche",
+                "lien":"public/images/placeholder.png"
+            },
+            "2":{
+                "nom":"Création d'un cocktail",
+                "lien":"public/images/placeholder.png"
+            },
+            "3":{
+                "nom":"",
+                "lien":"public/images/placeholder.png"
+            },
+            "4":{
+                "nom":"",
+                "lien":"public/images/placeholder.png"
+            }
+        },
+        "liens":{
+            "0":{
+                "nom":"TheCocktailDB",
+                "lien":"https://www.thecocktaildb.com/"
+            }
+        }
+    },
+
+    "3":{
         "nom":"Carnet de recherche de stage", 
-        "visuel":"public/images/placeholder.png", 
-        "resume":"Résumé rapide", 
-        "desc":"Description générale du projet", 
-        "contribution":"Ma contribution au projet",
+        "visuel":"public/images/placeholder.jpg", 
+        "resume":"Second projet réalisé en BUT. Prenant place durant le semestre contenant le stage de fin d'année, ce projet consistait à améliorer une application existante.", 
+        "desc":"L'objectif de ce projet était d'améliorer une application existante de gestion de stages par rapport à des critères de qualités choisis par nos soins. Notre groupe a choisis de se concentrer sur les critères de ..., ... et .... L'application possède un back-office web pour le responsable des stages, codé en PHP Symfony, et un front office Android, destiné aux étudiants, codé en Java et UML.", 
+        "contribution":"Je me suis occupée de réaliser quelques unes des interfaces du front-office Android. J'ai également réalisé les pages d'affichages d'offres de stage et de demandes de stage en cours. Enfin j'ai apporté mon aide pour la réalisation du visuel de certaines des autres pages de l'application mobile.",
         "langages":{
             "0":"PHP",
             "1":"Symfony",
@@ -61,23 +136,36 @@
             "3":"UML"
         },
         "images":{
-            "0":"lien",
-            "1":"lien",
-            "2":"lien",
-            "3":"lien",
-            "4":"lien"
+            "0":{
+                "nom":"Maquette des interfaces améliorées",
+                "lien":"public/images/maquettesameliorees.png"
+            },
+            "1":{
+                "nom":"Liste des avancées des étudiants",
+                "lien":"public/images/placeholder.png"
+            },
+            "2":{
+                "nom":"Page d'accueil et liste d'offres mobile",
+                "lien":"public/images/placeholder.png"
+            },
+            "3":{
+                "nom":"",
+                "lien":"public/images/placeholder.png"
+            },
+            "4":{
+                "nom":"",
+                "lien":"public/images/placeholder.png"
+            }
         },
-        "fichiers":{
-            "0":"lien",
-            "1":"lien"
+        "liens":{
         }
     },
 
-    "3":{
+    "4":{
         "nom":"BloomyFleet", 
-        "visuel":"public/images/placeholder.png", 
-        "resume":"Résumé rapide", 
-        "desc":"Description générale du projet", 
+        "visuel":"public/images/placeholder.jpg", 
+        "resume":"BloomyFleet est l'application que j'ai réalisé au cours de mon stage de fin de deuxième année de BUT. J'ai réalisé cette mission chez CBA Informatique Libérale à Avignon.", 
+        "desc":"Ce projet a été réalisé par un ", 
         "contribution":"Ma contribution au projet",
         "langages":{
             "0":"TypeScript",
@@ -85,15 +173,32 @@
             "2":"GraphQl"
         },
         "images":{
-            "0":"lien",
-            "1":"lien", 
-            "2":"lien",
-            "3":"lien", 
-            "4":"lien"
+            "0":{
+                "nom":"Un Bloomy",
+                "lien":"public/images/placeholder.png"
+            },
+            "1":{
+                "nom":"Liste des Bloomy",
+                "lien":"public/images/placeholder.png"
+            },
+            "2":{
+                "nom":"Tableau de bord",
+                "lien":"public/images/placeholder.png"
+            },
+            "3":{
+                "nom":"Liste des utilisateurs",
+                "lien":"public/images/placeholder.png"
+            },
+            "4":{
+                "nom":"Page de connexion",
+                "lien":"public/images/placeholder.png"
+            }
         },
-        "fichiers":{
-            "0":"lien",
-            "1":"lien"
+        "liens":{
+            "0":{
+                "nom":"CBA",
+                "lien":"https://www.cbainfo.fr/"
+            }
         }
     }
 }

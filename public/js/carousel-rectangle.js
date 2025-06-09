@@ -1,5 +1,5 @@
 const state = {};
-const carouselList = document.querySelector('.carousel-rectangle-list');
+const carouselList = document.querySelector('#carousel-rectangle-list');
 const carouselItems = document.querySelectorAll('.carousel-rectangle-item');
 const elems = Array.from(carouselItems);
 

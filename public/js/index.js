@@ -8,10 +8,11 @@ fetch('public/js/projets.json')
         return response.json();
     }).then(contenu => {
         for(let i=0; i<=3; i++) {
-            let projet = contenu[i];
+            let index = (Object.values(contenu).length-1)-i;
+            let projet = contenu[index];
             let li_carousel = listli_carousel[i]
             li_carousel.querySelector('h3').innerHTML = projet.nom
-            li_carousel.style.backgroundImage =projet.visuel;
-            li_carousel.querySelector('a').setAttribute("href", "template_projet.html?projet="+i)
+            li_carousel.style.backgroundImage = "url("+projet.visuel+")";
+            li_carousel.querySelector('a').setAttribute("href", "template_projet.html?projet="+index)
         }
     })
