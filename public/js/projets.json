@@ -83,7 +83,7 @@
         "visuel":"public/images/alchimix_res.png", 
         "resume":"Projet réalisé en quelques jours afin de se familiariser avec l'utilisation des APIs en JavaScript",
         "desc":"Alchi'Mix est une application permettant de consulter les données de l'API TheCocktailDB, elle permet également de créer ses propres cocktails de façon ludique. Nous avons réalisé cette application en équipe de 3.", 
-        "contribution":"Je me suis occupée de la partie création de cocktails. J'ai récupéré les ingrédients grâce au service principal réalisé par une autre membre de notre équipe. J'ai ensuite généré un cocktail aléatoire à afficher : une ilustration aléatoire parmis celles de application et un nom constitué d'un préfixe aléatoire et un des ingrédient du cocktail. Nous souhaitions faire en sorte d'afficher les données de l'API si l'utilisateur choississais les ingrédients d'un cocktail existant mais cela nécessitait trop d'appels pour effectuer la corespondance des ingrédients",
+        "contribution":"Je me suis occupée de la partie création de cocktails. J'ai récupéré les ingrédients grâce au service principal réalisé par une autre membre de notre équipe. J'ai ensuite généré un cocktail aléatoire à afficher : une ilustration aléatoire parmis celles de application et un nom constitué d'un préfixe aléatoire et un des ingrédient du cocktail. Nous souhaitions faire en sorte d'afficher les données de l'API si l'utilisateur choississais les ingrédients d'un cocktail existant mais cela nécessitait trop d'appels pour effectuer la correspondance des ingrédients",
         "langages":{
             "0":"HTML",
             "1":"CSS",
@@ -161,8 +161,8 @@
         "nom":"BloomyFleet", 
         "visuel":"public/images/placeholder.jpg", 
         "resume":"BloomyFleet est l'application que j'ai réalisé au cours de mon stage de fin de deuxième année de BUT. J'ai réalisé cette mission chez CBA Informatique Libérale à Avignon.", 
-        "desc":"Ce projet a été réalisé par un ", 
-        "contribution":"Ma contribution au projet",
+        "desc":"BloomyFleet permets aux développeurs et au personnel du SAV de CBA de contrôler facilement le parc des \"Bloomy\" de l'entreprise. Nous avons réalisé cette application en binôme avec un autre stagiaire de l'entreprise, lui s'occupant du back-end et moi du front-end. À l'image du reste des équipe de l'entreprise nous avons travaillé selon la méthode agile Scrum", 
+        "contribution":"J'ai développé le front de l'aplication en Angular et GraphQL pour les appels à la base de données. J'ai appris de zéro Angular, TypeScript et GraphQl pour cette mission, ce qui l'a rendue extrêment interressante et bénéfique pour moi. J'ai également pu appliquer ce que j'avais appris en cours plus tôt dans l'année sur les méthodes agiles et les logiciels de gestion de projet tels Jira et ClickUp. J'ai énormément appris durant ces 2 mois sur absolument tout les plans possibles et je suis très reconnaissante de l'expérience qu'il m'a apportée.",
         "langages":{
             "0":"TypeScript",
             "1":"Angular",

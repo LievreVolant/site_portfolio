@@ -15,6 +15,7 @@ html {
 .img-projet {
   width: 250px;
   height: 250px;
+  border-radius: 5px;
 }
 
 .bouton-filtre {
